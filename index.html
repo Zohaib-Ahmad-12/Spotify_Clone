@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<link rel="stylesheet" href="Spotify.css">
+<link rel="stylesheet" href="Utility.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<div class="nav">
+    <ul class="flex list ">
+        <div class="flex hamSet">
+            <li class="l1 PhoneLogo"> <img src="img/spotify-svgrepo-com.svg" alt="logo"></li>
+            <li> <img class="invert hamburger" src="img/hamburger.svg" alt="logo"></li>
+        </div>
+
+        <li class="l1 "> <img class="hover1-2" src="img/NewHome.svg" alt="home"></li>
+
+        <div class="searchPhone uplift flex">
+            <li class="l1 hover2nd"> <input class="search hover2nd" type="search" name="searchBox" id="search"
+                    placeholder="What do you want to play ?"></li>
+            <svg class="search-icon" fill="#dedede" height="200px" width="200px" version="1.1" id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 488.4 488.4"
+                xml:space="preserve" stroke="#dedede">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g>
+                        <g>
+                            <path
+                                d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z">
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+
+        <li class="l1 tag"><a href=""></a>Premium</li>
+        <li class="l1 tag"><a href=""></a>Support</li>
+        <li class="l1 tag"><a href=""></a>Download</li>
+        <li class="l1 tag">
+            <h1>|</h1>
+        </li>
+        <li class="l1 tag"> <svg class="invert tag" data-encore-id="icon" role="img" aria-hidden="true"
+                class="e-9921-icon e-9921-baseline " viewBox="0 0 16 16"
+                style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);">
+                <path
+                    d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528a.945.945 0 0 1-.005-.005L4.995 9.805a.75.75 0 0 1 0-1.06z">
+                </path>
+                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z"></path>
+            </svg> <a class="tag" href=""></a>Install App</li>
+        <li class="l1 tag"> <a href=""></a>Sign up</li>
+        <li class="l1 loginButton"> <input type="button" value="Log in">  </li>
+    </ul>
+
+
+
+</div>
+
+
+<body>
+    <div class="container flex">
+        <div class="left border  bg-greyL">
+            <div class="close">
+                <img class="invert3 cross" src="img/close.svg" alt="close icon">
+            </div>
+            <div class="library-icon">
+                <p class="Library">Your Library </p>
+
+                <div class="songLists ">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <footer>
+                    <div>
+
+
+
+
+                        <div class="footer">
+                            <a href="https://www.spotify.com/pk-en/legal/">Legal</a>
+                            <a href="https://www.spotify.com/pk-en/safetyandprivacy/">Safety &amp; Privacy Center</a>
+                            <a href="https://www.spotify.com/pk-en/legal/privacy-policy/">Privacy Policy</a>
+                            <a href="https://www.spotify.com/pk-en/legal/cookies-policy/">Cookies</a>
+                            <a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3">About Ads</a>
+                            <a href="https://www.spotify.com/pk-en/accessibility/">Accessibility</a>
+                        </div>
+
+                </footer>
+            </div>
+        </div>
+
+        <div class="right border right-color bg-greyL">
+            <div class="playlist">
+                <h2 class="weight">Trending songs</h2>
+            </div>
+     
+            <div class="cardcontainer">
+         
+
+
+        
+                 </div>
+                <div class="playbar">
+
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="aboveBar">
+
+                        <div class="songButtons">
+
+                            <div class="songinfo  songinfo-bar"> </div>
+                            <img class="Phone" id="previous" src="img/previous.svg" alt="previousButton">
+                            <img class="Phone" id="playB" src="img/PLAY.svg" alt="PlayButton">
+                            <img class="Phone" id="next" src="img/next.svg" alt="NextButton">
+                        </div>
+                        <div class="VolumeNtime">
+                            <div class="songtime"> </div>
+                            <img class="volume" id="MuteNContinue" src="img/volume.svg" alt="">
+                            <div class="volume-container">
+                                <input type="range" min="0" max="100" value="50" class="volume-slider">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+           
+
+</body>
+<script src="Spotify.js"></script>
+
+</html>

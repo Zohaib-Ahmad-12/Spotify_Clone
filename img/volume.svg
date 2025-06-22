@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speaker base -->
+  <path d="M3 9V15H7L12 20V4L7 9H3Z" fill="black"/>
+  
+  <!-- First small wave -->
+  <path d="M16 8.82V15.18C17.17 14.4 18 13.3 18 12C18 10.7 17.17 9.6 16 8.82Z" fill="black"/>
+  
+  <!-- Second larger wave -->
+  <path d="M19.5 7.14V16.86C21.17 15.64 22.2 13.93 22.2 12C22.2 10.07 21.17 8.36 19.5 7.14Z" fill="black"/>
+</svg>
